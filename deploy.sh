@@ -33,7 +33,7 @@
 
 # 复制新的工程
 #cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
-cp $PROJ_PATH/order/ $TOMCAT_APP_PATH/webapps/
+cp -r $PROJ_PATH/order/ $TOMCAT_APP_PATH/webapps/
 
 #cd $TOMCAT_APP_PATH/webapps/
 #mv order.war ROOT.war
